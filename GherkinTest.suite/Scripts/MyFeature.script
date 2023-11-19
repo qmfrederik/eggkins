@@ -1,0 +1,12 @@
+﻿to handle precondition
+	Log "Hello from precondition"
+end precondition
+
+to handle first_step
+	Log "Hello from first step"
+end first_step
+
+to handle verify_result
+	Log "Hello from verify result"
+	LogError "Something went wrong"
+end verify_result
